@@ -34,8 +34,8 @@ int main () {
 
   int *z = B, *q = &B[4];
 
-  std::cout << q - z << std::endl; // -1
-  std::cout << z - q << std::endl; // -1
+  std::cout << q - z << std::endl; // 4 means q is further away cause positive. 
+  std::cout << z - q << std::endl; // -4 means z is closer cause negative
 
   return 0;
 }
