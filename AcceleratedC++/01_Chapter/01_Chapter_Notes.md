@@ -1,45 +1,45 @@
 # Working with Strings
 
-## Char
+### Char
 
 Built in type that holds ordinary characters as defined by the implementation
 
-## wchar_t
+### wchar_t
 
 Built-in type intended to hold "wide characters" which are big enough to hold characters for languages such as japanese
 
-## String Type
+### String Type
 
 An object of type string.
 contains a sequence of zero or more characters
 
 If n is an **integer**, c is a **char**, **is** is an input stream, and os is an output stream, then the string operations include
 
-## std::string s;
+### std::string s
 
 Defines s as a variable type std::string that is empty
 
-## std::string t=s;
+### std::string t=s
 
 Defines t of type std::string that initially contains a copy of the characters in s
 
-## std::string z(n, c);
+### std::string z(n, c)
 
 Defines z that contains n copies of the c character. c must be a char not a string
 
-## os << s
+### os << s
 
 Writes the characters contained in s, without any formatting changes
 
-## is >> s
+### is >> s
 
 Reads and discards characters from the stream denoted by is until encountering a character that is not whitespace.
 
-## s + t
+### s + t
 
 The result of this expression is an std::string that contains a copy of the characters is s followed by a copy of the chars in t. Either s or t may be a string literal but not both.
 
-## s.size()
+### s.size()
 
 the number of chars in s.
 
@@ -53,7 +53,7 @@ the number of chars in s.
   const std::string second = "* " + spaces + " *";
 ```
 
-# Variables
+## Variables
 
 ## Can be defined in one of three ways
 
